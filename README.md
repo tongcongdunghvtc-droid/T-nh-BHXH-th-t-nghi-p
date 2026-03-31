@@ -1,20 +1,41 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Công cụ Tính Trợ Cấp Thất Nghiệp 2026 (Streamlit)
 
-# Run and deploy your AI Studio app
+Phiên bản này được tối ưu hóa để chạy trên nền tảng **Streamlit Cloud** hoặc môi trường Python cục bộ.
 
-This contains everything you need to run your app locally.
+## 🚀 Hướng dẫn triển khai lên GitHub & Streamlit Cloud
 
-View your app in AI Studio: https://ai.studio/apps/63e26a11-38c0-4485-a990-9caec22e1d85
+Để sử dụng công cụ này thông qua GitHub và Streamlit, hãy làm theo các bước sau:
 
-## Run Locally
+1.  **Tải mã nguồn:**
+    *   Tải file `app.py` và `requirements.txt` về máy tính của bạn.
+2.  **Tạo Repository trên GitHub:**
+    *   Đăng nhập vào [GitHub](https://github.com/).
+    *   Tạo một repository mới (ví dụ: `tro-cap-that-nghiep-2026`).
+    *   Tải (Upload) file `app.py` và `requirements.txt` lên repository này.
+3.  **Kết nối với Streamlit Cloud:**
+    *   Truy cập [Streamlit Cloud](https://share.streamlit.io/).
+    *   Đăng nhập bằng tài khoản GitHub của bạn.
+    *   Nhấn **"New app"**.
+    *   Chọn repository bạn vừa tạo, chọn nhánh `main` và file chính là `app.py`.
+    *   Nhấn **"Deploy!"**.
 
-**Prerequisites:**  Node.js
+## 💻 Chạy cục bộ (Local)
 
+Nếu bạn muốn chạy trên máy tính cá nhân:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1.  Cài đặt Python (phiên bản 3.9 trở lên).
+2.  Mở terminal/command prompt và cài đặt các thư viện cần thiết:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  Chạy ứng dụng:
+    ```bash
+    streamlit run app.py
+    ```
+
+## 📜 Căn cứ pháp lý
+*   **Luật Việc làm 2025** (Có hiệu lực từ 01/01/2026).
+*   **Nghị định 293/2025/NĐ-CP** về mức lương tối thiểu vùng mới.
+
+---
+*Lưu ý: Kết quả tính toán chỉ mang tính chất tham khảo dựa trên các quy định pháp luật dự kiến cho năm 2026.*
